@@ -1,11 +1,18 @@
-deployment :
+# scraper with temporal 
 
-steps :
+## 🚀 Deployment
 
-1. npm install
-2. temporal server start-dev
-3. npm run start.watch
-4. npm run workflow
+### 🛠️ Steps
 
+1. **npm install**: Install project dependencies.
+2. **temporal server start-dev**: Start the Temporal server in development mode.
+3. **npm run start.watch**: Start the project in watch mode.
+4. **npm run workflow**: Run the workflow.
 
-monitor workflow in temporal ui and trigger the worker at localhost3009 alsong with passsing  a url param in a get method .
+### 📊 Monitoring Workflow
+
+To monitor the workflow:
+
+- Open Temporal UI.
+- Trigger the worker at `localhost:3009`.
+- Pass a URL parameter in a GET method.
